@@ -1,0 +1,2 @@
+foreach (DataGridViewRow row in dtBang.Rows)
+                row.Cells[2].Value = Convert.ToDouble(row.Cells[0].Value) + Convert.ToDouble(row.Cells[1].Value);
